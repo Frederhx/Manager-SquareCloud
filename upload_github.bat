@@ -1,17 +1,21 @@
 @echo off
-REM === CONFIGURAÇÕES ===
 SET "REPO=https://github.com/Frederhx/Manager-SquareCloud.git"
 
-REM === INÍCIO DO SCRIPT ===
-echo Iniciando upload para o GitHub...
+git config --global user.name "Frederhx"
+git config --global user.email "fredericoceliacn@gmail.com"
 
-git init
-git remote add origin %REPO%
+echo Fazendo pull para sincronizar com o GitHub...
+git pull origin main --allow-unrelated-histories
+
+echo Adicionando arquivos...
 git add .
-git commit --allow-empty-message -m ""
-git branch -M main
-git push -u origin main
+
+echo Commitando as alterações...
+git commit -m "Atualizando arquivos locais"
+
+echo Enviando para o GitHub...
+git push origin main
 
 echo.
-echo ✅ Upload concluído com sucesso para: %REPO%
+echo ✅ Upload concluído com sincronização!
 pause
