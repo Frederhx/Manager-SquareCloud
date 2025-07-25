@@ -1,0 +1,5 @@
+DISPLAY_NAME=Manager
+MAIN=index.js
+VERSION=recommended
+MEMORY=256
+AUTORESTART=true

@@ -1,0 +1,30 @@
+{
+    "Vendas": {
+        "nomeproduto": "Vendas",
+        "type": "embed",
+        "preco": {
+            "anual": {
+                "onoff": true,
+                "preco": 10
+            },
+            "mensal": {
+                "onoff": true,
+                "preco": 5
+            },
+            "trimensal": {
+                "onoff": true,
+                "preco": 8.5
+            },
+            "embed": {
+                "cor": "Default",
+                "titulo": "Vendas",
+                "desc": "👋 Olá, está preparado para uma esperiencia inovadora com o bot da **F$ SysteM**? Clique no botão abaixo agora e adquira nosso bot **Vendas**"
+            },
+            "content": {
+                "content": "# Vendas\n\n👋 Olá, está preparado para uma esperiencia inovadora com o bot da **F$ SysteM**? Clique no botão abaixo agora e adquira nosso bot **Vendas**"
+            }
+        },
+        "banner": null,
+        "link": "remover"
+    }
+}

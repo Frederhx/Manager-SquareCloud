@@ -1,0 +1,10 @@
+{
+    "sistemaMp": true,
+    "square": "bddeabb2433ad0643d02ba734c1b77bb6f3c95d5-b2e8fbbf90226742ae84a832e825f3227c65494d32d9a7040b20779965a55d91",
+    "mp": "APP_USR-3658575730734648-062609-e4ff9c8358e3f30f04db910f703c07b0-2430272749",
+    "tempoPay": "10",
+    "banksOff": [
+        "inter",
+        "picpay"
+    ]
+}

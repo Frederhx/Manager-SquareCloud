@@ -1,0 +1,16 @@
+{
+    "sistema": true,
+    "semi": {
+        "sistema": false,
+        "tipo": "Email",
+        "chave": "yagoh3181@gmail.com",
+        "qrcode": null,
+        "tempoPay": "10",
+        "roleAprove": "1354661049457971301"
+    },
+    "renov": "1366911871940300914",
+    "vendas": "1366911871940300914",
+    "logs_backup": "1366911871940300914",
+    "channel_logs": "1366911871940300914",
+    "cargo_client": "1318275344490434582"
+}
