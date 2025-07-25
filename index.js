@@ -50,15 +50,15 @@ const { token } = require("./config.json");
 
 // --- Configuração Centralizada do Sistema de Tickets ---
 const config = {
-  panelChannelId: "1369489093850828921",
-  ticketCategory: "1369488997327310989", // << SUBSTITUA PELO ID DA SUA CATEGORIA
-  adminRoleId: "1268920176925999206", // ID do Cargo de Administrador
+  panelChannelId: "PAINEL CANAL ID", // << Mude pelo id do canal do painel de controle
+  ticketCategory: "ID CATEGORIA", // << SUBSTITUA PELO ID DA SUA CATEGORIA
+  adminRoleId: "ID CARGO ADM", // ID do Cargo de Administrador
 
   embed: {
-    author: "Central De Atendimento - FS SysteM Apps",
+    author: "Central De Atendimento",
     color: "#2F3136",
     description:
-      "**Bem-vindo ao painel de tickets da Sky Apps.** Antes de abrir um ticket, leia atentamente as informações abaixo para garantir um atendimento eficiente e evitar punições.\n\n" +
+      "**Bem-vindo ao painel de tickets.** Antes de abrir um ticket, leia atentamente as informações abaixo para garantir um atendimento eficiente e evitar punições.\n\n" +
       "**Horário de Atendimento**\n" +
       "Nosso suporte está disponível nos seguintes horários:\n" +
       "• Segunda a sexta-feira: 8h às 21h\n" +
@@ -174,7 +174,7 @@ client.on("interactionCreate", async (interaction) => {
   if (interaction.isButton()) {
     if (interaction.customId === "termos") {
       await interaction.reply({
-        content: `# Utilização dos serviços da Fs SysteM Apps
+        content: `# Utilização dos serviços
 1. Todas as transações efetuadas estão restritas a produtos virtuais, excluindo-se produtos físicos ou entregas domiciliares.
 2. Ao utilizar nossos Serviços, você automaticamente concorda com nossos Termos. O não cumprimento destes pode resultar em restrição de uso.
 # Seus direitos ao utilizar os Serviços da Sky Apps
@@ -195,7 +195,7 @@ client.on("interactionCreate", async (interaction) => {
 
     if (interaction.customId === "faq") {
       await interaction.reply({
-        content: `1. **Como posso adquirir um bot?** Para adquirir um bot da Ryzen, explore a variedade disponível nos canais específicos dos bots, como Vendas. Clique no botão no canal específico do bot desejado para fazer a compra.
+        content: `1. **Como posso adquirir um bot?** Para adquirir um bot, explore a variedade disponível nos canais específicos dos bots, como Vendas. Clique no botão no canal específico do bot desejado para fazer a compra.
 
 2. **Como recebo meu bot após a compra?** Após a compra, você receberá um tutorial em seu carrinho com todas as informações necessárias. Com essas informações, você poderá configurar seu bot automaticamente.
 

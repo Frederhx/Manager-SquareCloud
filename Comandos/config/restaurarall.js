@@ -18,7 +18,7 @@ module.exports = {
 
     run: async (client, interaction) => {
         // Verificação de permissão: Apenas um usuário específico pode usar este comando
-        if (interaction.user.id !== "1258164990104571914") {
+        if (interaction.user.id !== ownerID) {
             return interaction.reply({
                 content: "❌ Você não tem permissão para usar este comando.",
                 ephemeral: true

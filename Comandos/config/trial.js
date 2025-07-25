@@ -12,7 +12,7 @@ module.exports = {
     type: ApplicationCommandType.ChatInput,
     defaultMemberPermissions: "0x00000008",
     run: async (client, interaction) => {
-        if (interaction.user.id !== "1258164990104571914") {
+        if (interaction.user.id !== ownerID) {
             return interaction.reply({
                 content: `${Emojis.get('negative')} Você não tem permissão para usar este comando.`,
                 ephemeral: true
